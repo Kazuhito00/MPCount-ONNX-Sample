@@ -9,6 +9,11 @@ https://github.com/user-attachments/assets/1c327e97-ba06-4ff9-84b9-bf21e432da58
 * onnxruntime-gpu 1.9.0 or later <br>※onnxruntimeでも動作しますが、推論時間がかかるのでGPUをお勧めします
 
 # Demo
+以下の何れかのonnxファイルのうち、使用したいものをダウンロードして model に格納してください。
+* [MPCount_sta.onnx](https://github.com/Kazuhito00/MPCount-ONNX-Sample/releases/download/v0.0.1/MPCount_sta.onnx)
+* [MPCount_stb.onnx](https://github.com/Kazuhito00/MPCount-ONNX-Sample/releases/download/v0.0.1/MPCount_stb.onnx)
+* [MPCount_qnrf.onnx](https://github.com/Kazuhito00/MPCount-ONNX-Sample/releases/download/v0.0.1/MPCount_qnrf.onnx)
+
 デモの実行方法は以下です。
 ```bash
 python sample_onnx.py --movie=test.mp4
