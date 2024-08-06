@@ -132,4 +132,4 @@ dmypy.json
 *.bat
 
 # model
-model/*
+model/*.onnx
